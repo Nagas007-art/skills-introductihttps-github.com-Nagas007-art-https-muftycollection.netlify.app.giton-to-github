@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mufty's Fashion Collection</title>
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    padding: 10px;
+    background: #f4f4f4;
+  }
+  header{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: rgb(0, 135, 135);
+    }
+  
+  header nav  {
+    background-color: rgb(2, 63, 82);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    display: inline-flex;
+      }
+    nav a {
+      color: #ffffff;
+    }
+    nav a:hover{
+      background-color: #03d1ff;
+    }
+   
+    .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 40px;
+  }
+  .group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .item {
+    background-color: rgb(179, 179, 179);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1 1 30%;
+    padding: 15px;
+    text-align: center;
+  }
+  .item img {
+    max-width: 100%;
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .item h3 {
+    margin: 10px 0 5px;
+  }
+  p {
+    color: #ffffff;
+  }
+  .Price {
+    display: inline-block;
+    background-color: #0079fa;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+     margin-top: -10px;
+    
+    }
+    nav ul{
+      display: flex;
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      }
+      nav ul li{
+        margin-right: 30px;
+              }
+
+  .Price:hover {
+    background-color: #0056b3;
+  }
+  @media (max-width: 768px) {
+    .item {
+      flex: 1 1 100%;
+    }
+    footer{
+      display: inline-flex;
+
+    }
+     }
+     h2{
+      color: #02858f;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin: 10px;
+
+      }
+      footer {
+        width: 100%;
+        background-color: rgb(2, 63, 82);
+        text-align: center; /* Center the text inside */
+        padding: 20px 0; /* Top and bottom padding */
+        margin-top: 20px; /* Optional: space above the footer */
+    }
+    
+    footer p {
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        padding: 10px;
+        margin: 0 auto; 
+        display: inline-block; 
+    }
+    
+    footer p:hover {
+        background-color: #00c8ec;
+    }
+    
+  </style>
+    
+</head>
+<body>
+
+<header>
+  <section id="Home">
+    <h1>MUFTY'S FASHION COLLECTION</h1>
+  </section>
+  <nav>
+    <ul>
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#container">Collection </a></li>
+      <li><a href="#footer">Reach Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<div id="container">
+  <h2>Shoes</h2>
+  <div class="group">
+    <div class="item">
+      <img src="Images/Shoes/Black n White Sneakers.jpg" alt="Sneakers">
+      <h3>Casual Sneakers</h3>
+      <p>Perfect for everyday wear.</p>
+      <p><strong>Price:</strong></p> <p class="Price">GHS 250</p>
+    </div>
+ 
+    <div class="item">
+      <img src="Images/Shoes/Shoes (1).png" alt="Boots">
+      <h3>Leather Boots</h3>
+      <p>Durable and stylish.</p>
+      <p><strong>Price:</strong>  <p class="Price"> GHS 400</p>
+         </div>
+  </div>
+
+  <h2>Suits</h2>
+  <div class="group">
+    <div class="item">
+      <img src="Images/Suits/IMG-20250408-WA0013.jpg" alt="Blue-Black Suit">
+      <h3>Classic Blue-Black Suit</h3>
+      <p>Elegant and timeless.</p>
+      <p><strong>Price:</strong> <p class="Price">GHS 650</p>
+      </div>
+
+    <div class="item">
+      <img src="Images/Suits/IMG-20250408-WA0018.jpg" alt="Navy Suit">
+      <h3>Navy Blue Suit</h3>
+      <p>Modern business style.</p>
+      <p><strong>Price:</strong> <p class="Price"> GHS 700</p>
+      </div>
+  </div>
+
+  <h2>Perfumes</h2>
+  <div class="group">
+    <div class="item">
+     <img src="https://via.placeholder.com/300x200?text=Oud+Perfume" alt="Oud Perfume">
+      <h3>Royal Oud</h3>
+      <p>Bold and luxurious scent.</p>
+      <p><strong>Price:</strong> <p class="Price">GHS 150</p>
+      </div>
+
+    <div class="item">
+      <img src="https://via.placeholder.com/300x200?text=Fresh+Perfume" alt="Fresh Perfume">
+      <h3>Fresh Breeze</h3>
+      <p>Light and refreshing aroma.</p>
+      <p><strong>Price:</strong> <p class="Price"> GHS 120</p>
+      </div>
+  </div>
+</div>
+</body>
+<footer>
+  <div id="footer">
+    <p><strong>Contact:</strong> 059 429 6659/020 888 7883</p> 
+    <p><strong>Whatsapp:</strong> 059 429 6659/020 888 7883</p> 
+    <p><strong>Email:</strong> muftycollection@gmail.com</p>
+  </div>
+</footer>
+</html>
